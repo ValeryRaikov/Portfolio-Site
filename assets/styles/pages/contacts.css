@@ -1,0 +1,29 @@
+.contacts {
+    display: flex;
+    gap: 3em;
+}
+
+.contacts span.icon {
+    display: block;
+    text-align: center;
+}
+
+.contacts span.icon svg {
+    display: block;
+    width: 5em;
+    fill: #fff;
+    padding-bottom: 1em;
+    margin: 0 auto;
+}
+
+/* Fixing footer icon styling */
+.socials span.icon {
+    display: block;
+}
+
+.socials span.icon svg {
+    display: block;
+    width: 1.5em;
+    padding-bottom: 0;
+    fill: #fff;
+}

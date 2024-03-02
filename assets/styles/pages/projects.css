@@ -1,0 +1,28 @@
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tech-stack > h2 {
+    color: #4D5BCE;
+    font-size: 1.8em;
+}
+
+.tech-stack > h2::before {
+    display: inline-block;
+    content: '>';
+    padding-right: 1em;
+}
+
+.tech-stack span.tech-icon {
+    display: block;
+}
+
+.tech-stack span.tech-icon svg  {
+    display: block;
+    width: 3.5em;
+    height: auto;
+}

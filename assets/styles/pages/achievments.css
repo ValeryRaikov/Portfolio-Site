@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    gap: 2em;
+}
+
+.programming {
+    flex-basis: 60%;
+}
+
+.programming header {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-color: #555;
+    color: #DDD;
+    padding: 0.1em 1em;
+}
+
+.programming header h2::before {
+    display: inline-block;
+    content: '>';
+    padding-right: 0.5em;
+}
+
+.programming .body {
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding: 1em;
+    overflow: scroll;
+    background-color: #000;
+    color: #63de00;
+}
+
+.programming .body p::before {
+    display: inline-block;
+    content: '>';
+    padding-right: 0.5em;
+}
+
+.personal {
+    flex-basis: calc(40% - 2em);
+    align-self: stretch;
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0, 0.6) inset;
+    border: 1px solid var(--clr-border-layout);
+    border-radius: 1em;
+    padding: 1em;
+}

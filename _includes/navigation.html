@@ -1,0 +1,9 @@
+<nav class="main-nav">
+    <ul>
+        <li {% if page.url == "/" %} class="selected" {% endif %}><a href="/">hello</a></li>
+        <li {% if page.url == "/about/" %}class="selected" {% endif %}><a href="/about/">about-me</a></li>
+        <li {% if page.url == "/projects/" %} class="selected" {% endif %}><a href="/projects/">projects</a></li>
+        <li {% if page.url == "/achievments/" %} class="selected" {% endif %}><a href="/achievments/">achievments</a></li>
+        <li {% if page.url == "/contacts/" %} class="selected" {% endif %}><a href="/contacts/">conctact-me</a></li>
+    </ul>
+</nav>
